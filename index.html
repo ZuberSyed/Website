@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+        <link rel="stylesheet" href="style.css">  
+        <style>
+            .navbar-nav li a{
+                color: black;
+            }
+        </style>  
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <a href="#"><img src="Images/IVEOND-Logo.png" alt="logo" width="180px" height="50px"></a>
+            <a href="#" class="menu" onclick="openMenu()"><i class="fas fa-bars"></i></a>
+            <!--Nav-->
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li><a href="index.html">home</a></li>
+                    <li class="dropdown"><a href="digitalWorkers.html" class="dropdownBtn">digital workers</a>
+                    <ul class="dropdownMenu">
+                        <li><a href="digitalWorkers.html">what are digital workers</a></li>
+                        <li><a href="digitalWorkers.html">Rpa</a></li>
+                        <li><a href="digitalWorkers.html">natural language processing</a></li>
+                        <li><a href="digitalWorkers.html">chatbots</a></li>
+                        <li><a href="digitalWorkers.html">process mining</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="about.html">about us</a></li>
+                    <li class="dropdown"><a href="services.html" class="dropdownBtn">services</a>
+                    <ul class="dropdownMenu">
+                        <li><a href="services.html">new age technologies</a></li>
+                        <li><a href="services.html">security services</a></li>
+                        <li><a href="services.html">application development</a></li>
+                        <li><a href="services.html">infrastructure services</a></li>
+                        <li><a href="services.html">managed services</a></li>
+                    </ul>
+                </li>
+                    <li><a href="careers.html">careers</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <!--/Nav-->
+        </header>
+        <!--/Header-->
+        <!--Main-->
+        <main class="home">
+                <!--homeMain-->
+                <div class="homemain">
+                    <video src="Images/artificialIntelligence.mp4" class="homeVideo" autoplay loop muted></video>
+                    <h2>Strong Business begins with strong IT foundation</h2>
+                </div>
+                <!--/homeMain-->
+                <!--home-aboutUs-->
+                <div class="home-aboutUs">
+                    <div class="home-content">
+                        <p class="homeCard">A global automation technology provider leading with innovative ideas</p>
+                    <p>At IVEOND, we work towards empowering our clients with solutions that fuel future growth. The extensive adoption of digital technologies has opened up a plethora of opportunities for rapid business transformation. As a leading global information technology company, we harness the power of Hyper-Automation, Cognitive Computing, Cyber Security, Cloud and other advanced tecnologies to help our clients adopt digital ways for more success and better efficiency. A company recognized for its comprehensive services, we re-define possibilities to deliver delightful experiences across the globe.</p>
+                </div>
+                <!--/home-content-->
+                <a href="#" class="button">Read More >></a> 
+            </div>
+            <!--/home-aboutUs-->
+            <!--homeServices-->
+                <div class="homeServices">
+                    <h3 style="text-align:center;text-transform: capitalize;font-size: 2.4rem;padding:1.2rem">Scalable and Cost Effective solutions</h3>
+                    <p style="font-size:1.4rem;padding: 2rem;">Our services offer scalable, reliable and cost effective solutions to clients across the globe. The team at IVEOND is here to guide you through the different stages of the development cycle ensuring a delightful experience.</p>
+                    <!-- <div class="cards">
+                        <div class="cards">
+                            <img src="" alt="cardImage">
+                            <h5></h5>
+                        </div> -->
+                </div>
+                <!--/homeServices-->
+        </main>
+        <!--/main-->
+        <footer>
+            <div id="iveondFooter">
+            <div class="iveond-content">
+                    <h4>about iveod</h4>
+                    <p><span class="innovation">IVEOND</span> is a global technology services, consulting and outsourcing company. Collaborating with clients to help them become high-performance businesses.</p>
+            </div>
+            <div class="navigate">
+                <h4>Navigate</h4>
+                <div class="navigate-links">
+                <a href="digitalWorkers.html">digital workers</a>
+                <a href="services.html">services</a>
+                <a href="careers.html">careers</a>
+                <a href="contact.html">contact us</a>
+                </div>
+            </div>
+                <div class="social">
+                    <h4>Follow us</h4>
+                    <div class="socialLinks">
+                <a href="#"><span class="links"><i class="fab fa-twitter"></span></i></a>
+                <a href="#"><span class="links"><i class="fab fa-facebook-f"></i></span></i></a>
+                <a href="#"><span class="links"><i class="fab fa-instagram"></i></span></a>
+                <a href="#"><span class="links"><i class="fab fa-linkedin-in"></i></span></a>
+                </div>
+            </div>
+            </div>
+            <div class="footerEnd">
+                <!-- <p>Designed and Curated by <a href="#">Syed</a></p> -->
+                <p>&copy; 2021 IVEOND. All rights reserved</p>
+                <div class="termsPrivacy">
+                    <a href="#">Terms and Conditions</a> |
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <a href="#home" class="navigateArrow">^</a>
+        </footer>
+        <div id="sideMenu" class="sideNavbar">
+            <a href="#" onclick="closeMenu()"><span class="sideMenuBtn">&times</span></a>
+            <a href="index.html">home</a>
+            <a href="#">digital workers</a>
+            <a href="about.html">about us</a>
+            <a href="services.html">services</a>
+            <a href="careers.html">careers</a>
+            <a href="contact.html">contact</a>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
